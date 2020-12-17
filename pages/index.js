@@ -1,5 +1,4 @@
 import Layout from "../components/layaout";
-import Navbar from "../components/navbar";
 import Title from "../components/title";
 
 export default function Home() {
@@ -7,6 +6,16 @@ export default function Home() {
     <Layout>
       <Title>Home page</Title>
       <p>Aprendiendo nextjs</p>
+      <style>
+        {`
+         p {
+           color: darkgray;
+         }
+         p:hover {
+           color: darkred;
+         }
+        `}
+      </style>
     </Layout>
   );
 }
