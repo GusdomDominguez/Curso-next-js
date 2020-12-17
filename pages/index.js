@@ -1,11 +1,12 @@
+import Layout from "../components/layaout";
 import Navbar from "../components/navbar";
+import Title from "../components/title";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar></Navbar>
-      <h1>Home page</h1>
+    <Layout>
+      <Title>Home page</Title>
       <p>Aprendiendo nextjs</p>
-    </div>
+    </Layout>
   );
 }

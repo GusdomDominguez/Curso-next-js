@@ -1,10 +1,11 @@
+import Layout from "../../components/layaout";
 import Navbar from "../../components/navbar";
+import Title from "../../components/title";
 
 export default function Users() {
   return (
-    <div>
-      <Navbar></Navbar>
-      <h1>Users Pages</h1>
-    </div>
+    <Layout>
+      <Title>Users Pages</Title>
+    </Layout>
   );
 }
